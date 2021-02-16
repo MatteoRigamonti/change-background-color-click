@@ -1,0 +1,43 @@
+:root {
+	--whitecolor: #fff;
+}
+
+body {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	font-family: "Roboto", sans-serif;
+	height: 100vh;
+	justify-content: center;
+	margin: 0;
+	transition: 0.2s;
+}
+
+h1 {
+	text-align: center;
+	font-weight: 700;
+	color: var(--whitecolor);
+}
+
+#general-bg-color {
+	background-color: #4ca3dd;
+}
+
+button {
+	padding: 20px;
+	text-transform: uppercase;
+	background-color: transparent;
+	color: var(--whitecolor);
+	border: 2px solid var(--whitecolor);
+	transition: 0.3s;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: var(--whitecolor);
+	color: #000;
+}
+
+button:focus {
+	outline: none;
+}
