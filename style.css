@@ -11,6 +11,7 @@ body {
 	justify-content: center;
 	margin: 0;
 	transition: 0.2s;
+	overflow: hidden;
 }
 
 h1 {
@@ -20,7 +21,7 @@ h1 {
 }
 
 #general-bg-color {
-	background-color: #4ca3dd;
+	background-color: #026873;
 }
 
 button {
@@ -40,4 +41,13 @@ button:hover {
 
 button:focus {
 	outline: none;
+}
+
+.square-bg {
+	transition: 1s;
+	width: 0;
+	height: 0;
+	position: absolute;
+	z-index: -1;
+	border-radius: 50%;
 }
